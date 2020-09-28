@@ -17,7 +17,7 @@ public class VerkeersBoeteLauncher {
         System.out.println(parkeerBoete);
 
         SnelheidsBoete snelheidsBoete = new SnelheidsBoete("Elzelyne", "GX-700-V",
-                140, 120);
+                130, 120);
 
         System.out.println(snelheidsBoete);
 

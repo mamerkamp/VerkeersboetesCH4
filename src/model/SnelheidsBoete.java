@@ -13,6 +13,7 @@ public class SnelheidsBoete extends VerkeersBoete {
         super(naamDader, kentekenAuto);
         this.gemetenSnelheid = gemetenSnelheid;
         this.maximumSnelheid = maximumSnelheid;
+        bepaalBedrag();
     }
 
     @Override
@@ -21,7 +22,6 @@ public class SnelheidsBoete extends VerkeersBoete {
         double bedrag = 19999;
         if (snelheidVerschil > 0 && snelheidVerschil <= 10) { //TODO final waarden aanmaken
             bedrag = snelheidVerschil * 10;
-
         } else if (snelheidVerschil > 10 && snelheidVerschil <= 30) {
             bedrag = snelheidVerschil * 15;
         } else if (snelheidVerschil > 30) {
