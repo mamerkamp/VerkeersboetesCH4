@@ -21,6 +21,11 @@ public class VerkeersBoeteLauncher {
 
         System.out.println(snelheidsBoete);
 
+        VerkeersBoete boete = new VerkeersBoete("Mark", "GX800V");
+
+        System.out.println(boete);
+
+
 
 
     }

@@ -31,25 +31,25 @@ public class VerkeersBoete {
 
     }
 
-    public String getNaamDader() {
-        return naamDader;
-    }
-
-    public void setNaamDader(String naamDader) {
-        this.naamDader = naamDader;
-    }
-
-    public String getKentekenAuto() {
-        return kentekenAuto;
-    }
-
-    public void setKentekenAuto(String kentekenAuto) {
-        this.kentekenAuto = kentekenAuto;
-    }
-
-    public double getBedrag() {
-        return bedrag;
-    }
+//    public String getNaamDader() {
+//        return naamDader;
+//    }
+//
+//    public void setNaamDader(String naamDader) {
+//        this.naamDader = naamDader;
+//    }
+//
+//    public String getKentekenAuto() {
+//        return kentekenAuto;
+//    }
+//
+//    public void setKentekenAuto(String kentekenAuto) {
+//        this.kentekenAuto = kentekenAuto;
+//    }
+//
+//    public double getBedrag() {
+//        return bedrag;
+//    }
 
     public void setBedrag(double bedrag) {
         this.bedrag = bedrag;
